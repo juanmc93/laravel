@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Database Connection Name
+    | Default Database Connection Namegit 
     |--------------------------------------------------------------------------
     |
     | Here you may specify which of the database connections below you wish
