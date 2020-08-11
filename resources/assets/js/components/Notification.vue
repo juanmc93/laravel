@@ -1,7 +1,6 @@
 <template>
     <li class="nav-item d-md-down-none">
         <a class="nav-link" href="#" data-toggle="dropdown">
-            <i class="icon-bell"></i>
             <span class="badge badge-pill badge-danger">{{notifications.length}}</span>
         </a>  
         <div class="dropdown-menu dropdown-menu-right">

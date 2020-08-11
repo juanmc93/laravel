@@ -2330,9 +2330,9 @@ window._ = __webpack_require__(28);
  */
 
 try {
-  //window.$ = window.jQuery = require('jquery');
+    //window.$ = window.jQuery = require('jquery');
 
-  __webpack_require__(30);
+    __webpack_require__(30);
 } catch (e) {}
 
 /**
@@ -2354,9 +2354,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 var token = document.head.querySelector('meta[name="csrf-token"]');
 
 if (token) {
-  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+    window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
 } else {
-  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+    console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
 
 /**
@@ -2370,10 +2370,10 @@ if (token) {
 window.Pusher = __webpack_require__(51);
 
 window.Echo = new __WEBPACK_IMPORTED_MODULE_0_laravel_echo___default.a({
-  broadcaster: 'pusher',
-  key: '188242a73d60f8c287af',
-  cluster: 'us2',
-  encrypted: true
+    broadcaster: 'pusher',
+    key: '188242a73d60f8c287af',
+    cluster: 'us2',
+    encrypted: true
 });
 
 /***/ }),
@@ -55317,9 +55317,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -58480,23 +58477,6 @@ var render = function() {
             [
               _c("i", { staticClass: "icon-plus" }),
               _vm._v(" Nuevo\n                ")
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass: "btn btn-info",
-              attrs: { type: "button" },
-              on: {
-                click: function($event) {
-                  _vm.cargarPdf()
-                }
-              }
-            },
-            [
-              _c("i", { staticClass: "icon-doc" }),
-              _vm._v(" Reporte\n                ")
             ]
           )
         ]),
@@ -70388,9 +70368,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -70712,22 +70689,7 @@ var render = function() {
                                   },
                                   [_c("i", { staticClass: "icon-eye" })]
                                 ),
-                                _vm._v(
-                                  "  \n                                    "
-                                ),
-                                _c(
-                                  "button",
-                                  {
-                                    staticClass: "btn btn-info btn-sm",
-                                    attrs: { type: "button" },
-                                    on: {
-                                      click: function($event) {
-                                        _vm.pdfVenta(venta.id)
-                                      }
-                                    }
-                                  },
-                                  [_c("i", { staticClass: "icon-doc" })]
-                                )
+                                _vm._v("  \n                                ")
                               ]),
                               _vm._v(" "),
                               _c("td", {

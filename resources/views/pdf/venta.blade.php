@@ -114,12 +114,9 @@
     <body>
         @foreach ($venta as $v)
         <header>
-            <div id="logo">
-                <img src="img/logo2.png" alt="CompartiendoCodigo" id="imagen">
-            </div>
             <div id="datos">
                 <p id="encabezado">
-                    <b>Compartiendo Códigos</b><br>Arequipa, Perú<br>Telefono:(+51)999999999<br>Email: compartiendocodigos@gmail.com
+                    <b></b><br>Durán, Guayaquil<br>Telefono:0997794617<br>Email: juanmc1993@gmail.com
                 </p>
             </div>
             <div id="fact">

@@ -23,23 +23,17 @@
         <button class="navbar-toggler mobile-sidebar-toggler d-lg-none mr-auto" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"></a>
+     
         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="nav navbar-nav d-md-down-none">
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">Escritorio</a>
-            </li>
-            <li class="nav-item px-3">
-                <a class="nav-link" href="#">Configuraciones</a>
-            </li>
         </ul>
         <ul class="nav navbar-nav ml-auto">
             <notification :notifications="notifications"></notification>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <img src="img/avatars/6.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+    
                     <span class="d-md-down-none">{{Auth::user()->usuario}} </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
@@ -78,8 +72,8 @@
     </div>   
     </div>
     <footer class="app-footer">
-        <span><a href="https://www.compartiendocodigos.net/" target="_blank">CompartiendoCódigos</a> &copy; 2018-2019</span>
-        <span class="ml-auto">Version 0.0.1</span>
+        <span><a href="https://www.compartiendocodigos.net/" target="_blank"></a> &copy; 2020</span>
+      
     </footer>
     
 
