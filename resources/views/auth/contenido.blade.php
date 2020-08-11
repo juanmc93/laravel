@@ -9,7 +9,7 @@
   <meta name="author" content="compartiendocodigos.net">
   <meta name="keyword" content="Sistema ventas Laravel Vue Js, Sistema compras Laravel Vue Js">
 
-  <title>Sistema Ventas - Compartiendo Códigos</title>
+  <title>Sistema Ventas</title>
 
   <link href="css/plantilla.css" rel="stylesheet">
 
